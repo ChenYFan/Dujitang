@@ -14,6 +14,12 @@
 echo 'document.write("'.htmlspecialchars($result).'");';
 ```
 
+方式:在需要的地方来一句:
+
+```html
+<script src="api.php"></script>
+```
+
 接口是`api.php`
 
 内容存储在`data.dat`中
